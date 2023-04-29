@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Join2Start", "Join2Start\Join2Start.csproj", "{A7420FA2-9E27-4AD6-96A0-5D78A5261330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7420FA2-9E27-4AD6-96A0-5D78A5261330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7420FA2-9E27-4AD6-96A0-5D78A5261330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7420FA2-9E27-4AD6-96A0-5D78A5261330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7420FA2-9E27-4AD6-96A0-5D78A5261330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
