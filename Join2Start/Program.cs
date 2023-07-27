@@ -1,5 +1,7 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Net.Sockets;
+using System.Threading.Tasks;
 using Logging.Net;
 using YAMNL;
 
@@ -16,12 +18,16 @@ public static class Program
         Logger.DisableDebug = true;
         Logger.DisableWarn = true;
 
+        var port = args.Length > 0 ? int.Parse(args[0]) : 25565;
+
         Logger.Info("Join2Start v1");
         Logger.Info("Developed by the Moonlight Panel Team");
 
         Logger.Info("Waiting for players");
         
-        Listener = new TcpListener(IPAddress.Any, int.Parse(args[0]));
+        Logger.Info($"Using port {port}");
+        
+        Listener = new TcpListener(IPAddress.Any, port);
         
         Listener.Start();
         Listener.BeginAcceptTcpClient(OnClientConnected, null);

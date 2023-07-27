@@ -1,4 +1,6 @@
-﻿using YAMNL;
+﻿using System;
+using System.Threading.Tasks;
+using YAMNL;
 using YAMNL.Data;
 using YAMNL.Handshaking.Serverbound;
 using YAMNL.Login.Clientbound;
